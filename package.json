@@ -1,0 +1,31 @@
+{
+  "name": "basic-jwt-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersonnobre/basic-jwt-system.git"
+  },
+  "author": "Emerson Nobre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emersonnobre/basic-jwt-system/issues"
+  },
+  "homepage": "https://github.com/emersonnobre/basic-jwt-system#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.10"
+  }
+}
